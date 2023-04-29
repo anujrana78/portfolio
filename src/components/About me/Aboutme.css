@@ -1,0 +1,45 @@
+.about{
+    display: flex;
+    padding: 10% 0;
+    gap: 5%;
+    align-items: center;
+
+}
+.about-image__container{
+    width: 50%;
+}
+.about-image{
+    height: 350px;
+    width: 400px;
+    border-radius: 5%;
+    object-fit:cover;
+}
+
+.about-desc h4 {
+    margin:0;
+    padding: 0;
+}
+
+.about-desc h3{
+    margin: 0 -2px;
+}
+
+.about-desc p {
+    color: rgb(149, 144, 144);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .about{
+        text-align:center;
+        flex-direction: column;
+    }
+    .about-image{
+        width: 100%;
+        height: 200px;
+    }
+
+     .about-image__container{
+        width: 100%;
+     }
+  }

@@ -1,0 +1,14 @@
+.portfolio{
+    margin: 0 20%;
+}
+
+.portfolio-background{
+    background-color: rgb(249, 244, 244);
+    padding: 5% 0;
+
+}
+.portfolio-container .desc{
+    margin: 0;
+    padding: 0;
+}
+

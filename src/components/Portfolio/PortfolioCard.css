@@ -1,0 +1,68 @@
+.portfolio-image{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
+    padding: 2% 2%;
+    gap : 4%;
+    margin-top: 5%;
+}
+
+.portfolio-desc{
+    text-align: center;
+}
+
+.portfolio-desc p{
+    color: rgb(172, 166, 166);
+}
+
+.tech-container{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px    3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
+    padding: 4px 20px;
+}
+
+.portfolio-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap:5%;
+    margin: 0 10%;
+}
+
+.p-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+    width: 30%;
+}
+
+.p-links h4{
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .card{
+        flex-direction: column;
+    }
+
+    .portfolio-image{
+        width: 100%;
+        border-radius: 10px;
+    }
+  }
